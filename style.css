@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/fraunces');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:#f3eae3 ;
+    overflow: hidden;
+}
+
+.container{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    margin: 5% auto;
+    border-radius: 10px;
+    overflow: hidden;
+
+
+}
+
+.img-container{
+    width: 600px;
+    height: 450px;
+    background-image: url('/images/image-product-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.description{
+    background-color: white;
+    width: 580px;
+    height: 450px;
+    padding: 30px;
+}
+.subtitle{
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 14.63px;
+    font-size: 12px;
+
+}
+
+h1{
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+
+}
+p{
+    margin-bottom: 29px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.value{
+    display: flex;
+    gap: 19px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.onsale{
+    font-size: 32px;
+    line-height: 32px;
+    font-family: 'Fraunces', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #477865;
+}
+.original-value{
+    font-size: 13px;
+    line-height: 23px;
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+button{
+    width: 236px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color:  #3d8168;
+    font-size: 14px;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+
+    /*text */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    
+}
+button img{
+    margin-right: 11px;
+}
+button:hover{
+    background-color: #1a4039;
+}
+
+a:visited{
+    color: #000;
+}
+
+        
